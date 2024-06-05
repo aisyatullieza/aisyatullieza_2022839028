@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+
+<link rel = "stylesheet" type="text/css" href="resource/css/style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+<script src="resource/js/script.js"></script>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+<nav>
+<div id="menu">
+<div class= "topnav">
+  <ul>
+    <li class= "active"><a href= "file:///C:/Users/Lenovo/OneDrive/Desktop/IML254/individual_assignment/index.html" target = "_self"> HOME </a></li>
+     <li><a  href= "file:///C:/Users/Lenovo/OneDrive/Desktop/IML254/individual_assignment/background.html" target = "_self"> BACKGROUND </a></li>
+     <li><a  href= "file:///C:/Users/Lenovo/OneDrive/Desktop/IML254/individual_assignment/family_members.html"> FAMILY  </a></li>
+     <li><a  href= "file:///C:/Users/Lenovo/OneDrive/Desktop/IML254/individual_assignment/friends.html"> FRIENDS </a></li>
+     <li><a  href= "file:///C:/Users/Lenovo/OneDrive/Desktop/IML254/individual_assignment/my_pets.html"> MY PETS </a></li>
+     <li><a  href= "file:///C:/Users/Lenovo/OneDrive/Desktop/IML254/individual_assignment/memorable_photos.html"> MEMORABLE PHOTOS </a></li>
+     <li><a  href= "file:///C:/Users/Lenovo/OneDrive/Desktop/IML254/individual_assignment/videos.html"> VIDEOS </a></li>
+     <li><a href= "file:///C:/Users/Lenovo/OneDrive/Desktop/IML254/individual_assignment/music_playlist.html" target = "_self"> MUSIC PLAYLIST </a></li>
+</ul>
+</div>
+</nav>
+</div>
+</div>
+
+
+
+
+</header>
+<title> about_me </title>
+<body>
+
+
+
+<div class= "header">
+<h1> ABOUT ME </h1>
+</div>
+
+<div style="text-align:center"> 
+  <button onclick="playPause()">Play/Pause</button> 
+  <button onclick="makeBig()">Big</button>
+  <button onclick="makeSmall()">Small</button>
+  <button onclick="makeNormal()">Normal</button>
+  <br><br>
+  <video id="video1" width="500px">
+    <source src="resource/video/about_me.mp4" type="video/mp4">
+    Your browser does not support HTML video.
+  </video>
+</div> 
+<br>
+
+<section class="intro">
+<div class="intro-content">
+<h1 class="title">Let's get to know me! </h1>
+<p class="description">
+Hi everyone! My name is Aisyatullieza binti Abdullah. I'm mostly called Aisya or Sya by those who are close. 
+I am 21 years old. My birthday is on 21 January 2004. I have spent fifteen years living in Selangor. 
+Nonetheless, my family and I have now moved to Perak. My MBTI is ESFP-T. 
+</p>
+</div>
+
+
+
+<div class="card-container">
+<div style="--r: -15; --y: 40; --x: 50" class="card">
+<img src= "resource/images/me1.jpg" alt= "Image of Aisya">
+</div>
+
+<div style="--r: 5; --y: -30; --x: 30" class="card">
+<img src= "resource/images/me2.jpg" alt= "Image of Aisya">
+</div>
+
+<div style="--r: 15; --y: 50; --x: 0" class="card">
+<img src= "resource/images/me3.jpg" alt= "Image of Aisya">
+</div>
+
+</div>
+</section>
+
+
+<div class= "header">
+<h1> HOBBY </h1>
+</div>
+
+<div class= "content">
+  <img src= "resource/images/me2.jpg" style= "width: 300px ; height: 400px ; float: right; margin-right: 20px">
+<br><br>
+
+<div class= "subtitle">
+<ul style= "list-style-type:disc;">
+<li> <p class=subtitle> Listen to music </li> </p>
+<li> <p class=subtitle> Reading novel, e-book and comic </li> </p>
+<li> <p class=subtitle> Singing </li> </p>
+<li> <p class=subtitle> Sleeping </li> </p>
+<li> <p class=subtitle> Cycling </li> </p>
+</ul>
+</p>
+</div>
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+
+
+<div class= "header">
+<h1> EDUCATION </h1>
+</div>
+</div>
+
+
+<br><br> <br><br>
+
+
+<center>
+<div class= "row">
+<div class= "container">
+<img src= "resource/images/study1.jpg" style= "width: 50%" class= "image">
+<div class= "overlay"> Sekolah Rendah Bandar Sungai Buaya </div>
+</div>
+
+
+<div class= "container">
+<img src= "resource/images/study2.jpg" style= "width: 50%" class= "image">
+<div class= "overlay">Sekolah Menengah Bandar Sungai Buaya </div>
+</div>
+
+<div class= "container">
+<img src= "resource/images/study3.jpg" style= "width: 50%" class= "image">
+<div class= "overlay"> Universiti Teknologi MARA </div>
+</div>
+</div>
+
+<br><br> <br><br>
+            <source src="resource/video/videos1.mp4" type="video/mp4" >
+
+
+
+<script src="resource/js/script.js"></script>
+
+<script> 
+var myVideo = document.getElementById("video1"); 
+
+function playPause() { 
+  if (myVideo.paused) 
+    myVideo.play(); 
+  else 
+    myVideo.pause(); 
+} 
+
+function makeBig() { 
+    myVideo.width = 1020; 
+} 
+
+function makeSmall() { 
+    myVideo.width = 620; 
+} 
+
+function makeNormal() { 
+    myVideo.width = 720; 
+} 
+</script> 
+
+
+
+
+<br><br><br>
+<br><br><br>
+
+
+<div class= "footer">
+<div class= "socialIcons">
+<div class="socialIcons">
+<a href="https://www.instagram.com/aisyatullieza_/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+<a href="https://www.facebook.com/aisyatullieza.abdullah/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+<a href="https://www.tiktok.com/@lryyn_?_t=8mN8C4epva3&_r=1/" target="_blank"><i class="fa-brands fa-tiktok"></i></a>
+</div>
+</div>
+
+<div class= "footer-links">
+    <a href= "file:///C:/Users/Lenovo/OneDrive/Desktop/IML254/individual_assignment/index.html" target = "_self"> Home </a>
+    <a  href= "file:///C:/Users/Lenovo/OneDrive/Desktop/IML254/individual_assignment/background.html" target = "_self"> About Me </a>
+    <a  href= "file:///C:/Users/Lenovo/OneDrive/Desktop/IML254/individual_assignment/family_members.html"> Family </a>
+    <a  href= "file:///C:/Users/Lenovo/OneDrive/Desktop/IML254/individual_assignment/friends.html"> Friends </a>
+    <a  href= "file:///C:/Users/Lenovo/OneDrive/Desktop/IML254/individual_assignment/my_pets.html"> My Pets </a>
+    <a  href= "file:///C:/Users/Lenovo/OneDrive/Desktop/IML254/individual_assignment/memorable_photos.html"> Memorable Photos</a>
+    <a  href= "file:///C:/Users/Lenovo/OneDrive/Desktop/IML254/individual_assignment/videos.html"> Videos</a>
+    <a href= "file:///C:/Users/Lenovo/OneDrive/Desktop/IML254/individual_assignment/music_playlist.html" target = "_self"> Music Playlist </a>
+</div>
+
+<div class= "credit">&copy; 2024 Designed by Aisyatullieza</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
