@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title> memorable_photos </title>
+
+
+<link rel = "stylesheet" type="text/css" href="resource/css/style.css">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+
+
+<nav>
+<div id="menu">
+<div class= "topnav">
+  <ul>
+    <li class= "active"><a href= "file:///C:/Users/Lenovo/OneDrive/Desktop/IML254/individual_assignment/index.html" target = "_self"> HOME </a></li>
+     <li><a  href= "file:///C:/Users/Lenovo/OneDrive/Desktop/IML254/individual_assignment/about_me.html" target = "_self"> ABOUT ME </a></li>
+     <li><a  href= "file:///C:/Users/Lenovo/OneDrive/Desktop/IML254/individual_assignment/family_members.html"> FAMILY  </a></li>
+     <li><a  href= "file:///C:/Users/Lenovo/OneDrive/Desktop/IML254/individual_assignment/friends.html"> FRIENDS </a></li>
+     <li><a  href= "file:///C:/Users/Lenovo/OneDrive/Desktop/IML254/individual_assignment/my_pets.html"> MY PETS </a></li>
+     <li><a  href= "file:///C:/Users/Lenovo/OneDrive/Desktop/IML254/individual_assignment/memorable_photos.html"> MEMORABLE PHOTOS </a></li>
+     <li><a  href= "file:///C:/Users/Lenovo/OneDrive/Desktop/IML254/individual_assignment/videos.html"> VIDEOS </a></li>
+     <li><a href= "file:///C:/Users/Lenovo/OneDrive/Desktop/IML254/individual_assignment/music_playlist.html" target = "_self"> MUSIC PLAYLIST </a></li>
+
+</ul>
+</div>
+</nav>
+</div>
+</div>
+
+
+
+
+
+</head>
+
+<body>
+
+<div class= "header">
+<h1> MEMORABLE PHOTOS </h1>
+</div>
+
+<br><br><br>
+
+<div class= "full-img" id= "fullImgBox">
+<img src= "resource/images/photo1.jpg" id= "fullImg">
+<span onclick= "closeFullImg()">x</span>
+</div>
+
+<div class= "img-gallery">
+<div class= "row-img">
+<img src= "resource/images/photo1.jpg" onclick= "openFullImg(this.src)">
+<img src= "resource/images/photo2.jpg" onclick= "openFullImg(this.src)">
+<img src= "resource/images/photo3.jpg" onclick= "openFullImg(this.src)">
+<img src= "resource/images/photo4.jpg" onclick= "openFullImg(this.src)">
+</div>
+</div>
+
+<div class= "img-gallery">
+<div class= "row-img">
+<img src= "resource/images/photo5.jpg" onclick= "openFullImg(this.src)">
+<img src= "resource/images/photo6.jpg" onclick= "openFullImg(this.src)">
+<img src= "resource/images/photo7.jpg" onclick= "openFullImg(this.src)">
+<img src= "resource/images/photo8.jpg" onclick= "openFullImg(this.src)">
+</div>
+</div>
+
+<div class= "img-gallery">
+<div class= "row-img">
+<img src= "resource/images/photo9.jpg" onclick= "openFullImg(this.src)">
+<img src= "resource/images/photo10.jpg" onclick= "openFullImg(this.src)">
+<img src= "resource/images/photo11.jpg" onclick= "openFullImg(this.src)">
+<img src= "resource/images/photo12.jpg" onclick= "openFullImg(this.src)">
+</div>
+</div>
+
+<div class= "img-gallery">
+<div class= "row-img">
+<img src= "resource/images/photo13.jpg" onclick= "openFullImg(this.src)">
+<img src= "resource/images/photo14.jpg" onclick= "openFullImg(this.src)">
+<img src= "resource/images/photo15.jpg" onclick= "openFullImg(this.src)">
+<img src= "resource/images/photo16.jpg" onclick= "openFullImg(this.src)">
+</div>
+</div>
+
+<div class= "img-gallery">
+<div class= "row-img">
+<img src= "resource/images/photo17.jpg" onclick= "openFullImg(this.src)">
+<img src= "resource/images/photo18.jpg" onclick= "openFullImg(this.src)">
+<img src= "resource/images/photo19.jpg" onclick= "openFullImg(this.src)">
+<img src= "resource/images/photo12.jpg" onclick= "openFullImg(this.src)">
+</div>
+</div>
+</div>
+
+
+
+
+<script>
+
+
+  var fullImgBox = document.getElementById("fullImgBox");
+  var fullImg = document.getElementById("fullImg");
+ 
+  function openFullImg(pic){
+     fullImgBox.style.display = "flex";
+     fullImg.src = pic;
+  }
+
+  function closeFullImg(){
+      fullImgBox.style.display = "none";
+   }
+
+
+</script>
+
+
+<br><br><br><br>
+<br><br><br><br>
+<br><br><br><br>
+
+
+
+<div class= "footer">
+<div class= "socialIcons">
+<div class="socialIcons">
+<a href="https://www.instagram.com/aisyatullieza_/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+<a href="https://www.facebook.com/aisyatullieza.abdullah/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+<a href="https://www.tiktok.com/@lryyn_?_t=8mN8C4epva3&_r=1/" target="_blank"><i class="fa-brands fa-tiktok"></i></a>
+</div>
+</div>
+
+<div class= "footer-links">
+    <a href= "file:///C:/Users/Lenovo/OneDrive/Desktop/IML254/individual_assignment/index.html" target = "_self"> Home </a>
+    <a  href= "file:///C:/Users/Lenovo/OneDrive/Desktop/IML254/individual_assignment/background.html" target = "_self"> About Me </a>
+    <a  href= "file:///C:/Users/Lenovo/OneDrive/Desktop/IML254/individual_assignment/family_members.html"> Family </a>
+    <a  href= "file:///C:/Users/Lenovo/OneDrive/Desktop/IML254/individual_assignment/friends.html"> Friends </a>
+    <a  href= "file:///C:/Users/Lenovo/OneDrive/Desktop/IML254/individual_assignment/my_pets.html"> My Pets </a>
+    <a  href= "file:///C:/Users/Lenovo/OneDrive/Desktop/IML254/individual_assignment/memorable_photos.html"> Memorable Photos</a>
+    <a  href= "file:///C:/Users/Lenovo/OneDrive/Desktop/IML254/individual_assignment/videos.html"> Videos</a>
+    <a href= "file:///C:/Users/Lenovo/OneDrive/Desktop/IML254/individual_assignment/music_playlist.html" target = "_self"> Music Playlist </a>
+</div>
+
+<div class= "credit">&copy; 2024 Designed by Aisyatullieza</div>
+</div>
+</div>
+
+</body>
